@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
-import percolation.space_2d.generation_net.calculation as c
+import space_2d.generation_net.calculation as c
 
-from percolation.space_2d.generation_corn.calculation import \
+from space_2d.generation_corn.calculation import \
     generate_2d_corn_cluster, \
     expand_existing_cluster_with_shell, \
     prepare_cluster_for_splitting
 
-from percolation.space_2d.generation_corn.visualize import draw_array_as_grid
+from space_2d.generation_corn.visualize import draw_array_as_grid
 
 
 grid_size = 10
